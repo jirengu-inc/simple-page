@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+}
+ul,ol{
+  list-style: none;
+  padding: 0;
+}
+/* logo 模块*/
+.logo{ 
+  text-align: center;
+}
+.logo > .img{ 
+  display: inline-block;
+  width: 72px;
+  height: 72px;
+  background: #D8D8D8;
+  border-radius: 36px;
+  margin-top: 60px;
+}
+.logo > .slogan {
+  margin-top: 28px;
+}
+.logo > .slogan > li{
+  background: #d8d8d8;
+  display: inline-block;
+  min-width: 128px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 24px;
+  line-height: 24px;
+}
+
+/* banner 模块*/
+.banner{
+  background: #EFEFEF;
+  text-align: center; 
+  padding-top: 46px;;
+}
+.banner > h2{
+  background: #D8D8D8;
+  display: inline-block;
+  border-radius: 14px;
+  min-width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  line-height: 34px;
+  padding: 3px 0;
+}
+.banner .details{
+  padding-top: 16px;
+  padding-bottom: 34px;
+}
+.banner .details p{
+  background: #E8E7E7;
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 24px;
+  border-radius: 14px;
+  margin-top: 20px;
+}
+
+/* products 模块*/
+.products{
+  margin: 0 16px;  
+}
+.products>ol{
+  margin-top: 42px;
+}
+.products>ol>li{}
+.products .product { 
+  margin-top: 32px;
+}
+.products .product>.img { 
+  background:#d8d8d8;
+  border-radius:4px;
+  min-width:288px;
+  height:180px; /*图片不需要写高度，它会自己算*/
+}
+.products .product>h3 { 
+  max-width: 204px;
+  background:#bcbcbc;
+  border-radius:4px;
+  line-height: 24px;
+  margin-top: 20px;
+  margin-bottom: 14px;;
+}
+.products .product>p {
+  background:#ececec;
+  border-radius:4px;
+  line-height: 16px;
+  font-size: 14px;
+  margin-top: 14px;
+ }
