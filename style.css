@@ -67,7 +67,7 @@ ul,ol{
 .products>ol{
   margin-top: 42px;
 }
-.products>ol>li{}
+.products> ol> li{}
 .products .product { 
   margin-top: 32px;
 }
